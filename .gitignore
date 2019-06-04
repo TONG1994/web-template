@@ -1,0 +1,7 @@
+node_modules
+/.vs
+/npm-debug.log.*
+/docs/.vs
+/package-lock.json
+/backup
+/.idea

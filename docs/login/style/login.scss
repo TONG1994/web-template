@@ -1,0 +1,185 @@
+.log-wrap {
+     background-image: url("./bg.svg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+    .login-title {
+        transform: translate(118px,-100px);
+        border-width: 0px;
+        position: absolute;
+        left: -25px;
+        top: 0px;
+        width: 275px;
+        height: 36px;
+        line-height: 36px;
+        font-weight: 650;
+        font-style: normal;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.847058823529412);
+        text-align: center;
+        .word{
+            font-family:'Helvetica-Bold', 'Helvetica Bold', 'Helvetica';
+            font-weight:bold;
+        }
+        .text{
+            font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';
+            font-weight:bold;
+        }
+        #logo-img{
+            border-width: 0px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 46px;
+            height: 36px;
+            color: #000000;
+            .img{
+                border-width: 0px;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 46px;
+                height: 36px;
+            }
+        }
+        #logo-text{
+            border-width: 0px;
+            position: absolute;
+            left: 55px;
+            top: 0px;
+            white-space: nowrap;
+            width: 210px;
+        }
+    }
+    .log-wrap {
+        width: 446px;
+        //min-height: 395px;
+       // background: #fff;
+        // border: 1px solid #333;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        // transform: translate(-446px, -155px);
+        margin-left: -223px;
+        margin-top:-160px;
+        padding: 15px 0;
+        border: none;
+        //border-radius: 10px;
+        //-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349019607843137);
+        //-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349019607843137);
+        //box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349019607843137);
+    }
+    .banner-wrap {
+        float: left;
+        width: 400px;
+        height: 100%;
+        //background: url("./HBBManager.jpg") center no-repeat;
+    }
+    .inner-wrap {
+        //width: 396px;
+        //margin-left: 50px;
+        .input-wrap {
+            width: 82.5%;
+            margin: 0 auto;
+            form{
+                margin-left: 8px;
+                margin-right: 4px;
+                .ant-form-item{
+                    padding-bottom: 16px;
+                    margin-bottom: 0;
+                }
+                .ant-input-prefix{
+                    left: 8px;
+                }
+            }
+        }
+        .login-text {
+            color: #333;
+            font-size: 20px;
+            margin: 15px 0;
+            text-align: center;
+            img{
+                width: 160px;
+                height: 50px;       
+            }
+        }
+        .login-check-box{
+            border-width: 0px;
+            position: absolute;
+            left: 8px;
+            top: 115px;
+        }
+    }
+    .login-input {
+        border: 0;
+        border: 1px solid #CCCCCC;
+        border-radius: 4px;
+        //width:240px;
+        //height:42px;
+        //background:rgba(255,255,255,1);
+        //border-radius:4px;
+        //border:1px solid rgba(204,204,204,1);
+        &:focus {
+            outline: none;
+            border: 0!important;
+        }
+        .ant-input {
+            border: 0;
+            &:focus {
+                outline: none;
+                border: 0!important;
+            }
+        }
+    }
+    .login-foot{
+        // color:#fff;
+        font-size: 12px;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        bottom:20px;
+        width: 100%;
+    }
+    .form-class {
+        position: absolute;
+        width: 100%;
+    }
+    .ant-alert{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap !important;
+        outline: 0 !important
+    }
+    .login-btn-wrap{
+        border-width: 0px;
+        position: absolute;
+        left: 8px;
+        top: 153px;
+        width: 355.95px;
+        height: 40px;
+        font-family: 'MicrosoftYaHei', 'Microsoft YaHei';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 24px;
+        &:hover {
+            cursor: pointer;
+        }
+        .btn-text{
+            width:28px;
+            height:20px;
+            font-size:14px;
+            font-family:'PingFangSC-Regular';
+            font-weight:400;
+            color:rgba(255,255,255,1);
+            line-height:20px;
+            position: relative;
+            left: 44%;
+            top: -41px;
+        }
+    }
+}
+.input-wrap .ant-input{
+    transition: background-color 999s;
+}
